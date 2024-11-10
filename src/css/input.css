@@ -1,0 +1,8 @@
+@font-face {
+    font-family: belgan;
+    src: url(/src/font/belgan.ttf);
+  }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

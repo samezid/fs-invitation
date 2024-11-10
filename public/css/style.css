@@ -1,0 +1,30 @@
+    /* Custom Animation for Fade Out */
+    @keyframes fadeOut {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
+    .fade-out {
+      animation: fadeOut 0.5s ease-out forwards;
+    }
+
+    .section {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+    }
+
+      .mobile-container {
+        max-width: 420px; /* Batas lebar tampilan mobile */
+        margin: 0 auto;
+        background-color: white;
+      }
+      .hidden-scroll {
+        overflow-y: hidden;
+      }
